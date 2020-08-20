@@ -1,0 +1,35 @@
+body{
+    margin: 0px;
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    border: 10px solid;
+    height: 100vh;
+}
+.box{
+    color: white;
+    font-size: 100px;
+    flex: 1 1 250px;
+}
+.box1{
+    background: violet;
+}
+.box2{
+    background: indigo;
+    flex-grow: 5;
+}
+.box3{
+    background: blue;
+    flex-basis: 100px;
+}
+.box4{
+    background: green;
+}
+.box5{
+    background: yellow;
+}
+.box6{
+    background: orange;
+}
