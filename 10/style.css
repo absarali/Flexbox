@@ -1,0 +1,17 @@
+.container{
+    display: flex;
+    border: 10px solid goldenrod;
+}
+.box{
+    text-align: center;
+    color: white;
+    flex: 1;
+}
+.box1{background: violet;}
+.box2{background: indigo;}
+.box3{background: blue;}
+.box4{
+    background: green;
+    flex: 2;
+}
+.box5{background: yellow;}
