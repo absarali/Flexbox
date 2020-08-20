@@ -1,0 +1,24 @@
+.container{
+    display: flex;
+    border: 10px solid goldenrod;
+    align-items: flex-start;
+    height: 50vh;
+}
+.box{
+    text-align: center;
+    font-size: 100px;
+    width: 10%;
+}
+.box1{background: violet;}
+.box2{background: indigo;}
+.box3{
+    background: blue;
+    align-self: stretch;
+}
+.box4{background: green;}
+.box5{background: yellow;}
+.box6{background: orange;}
+.box7{background: red;}
+.box8{background: brown;}
+.box9{background: silver;}
+.box10{background: gray;}
