@@ -1,0 +1,15 @@
+.container{
+    border: 10px solid pink;
+    display: flex;
+}
+.box{
+    font-size: 100px;
+}
+.box1{background: violet;}
+.box2{background: indigo;}
+.box1{
+    flex: 1 2 200px;
+}
+.box2{
+    flex: 1 1 200px;
+}
