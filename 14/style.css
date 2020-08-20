@@ -1,0 +1,37 @@
+ul{
+    display: flex;
+    list-style-type: none;
+    text-align: center;
+}
+a:hover{
+    background: rgba(0,0,0,0.3);
+}
+.container{
+    background: lightblue;
+    border: 1px solid;
+    max-width: 1000px;
+    margin: 0px auto;
+}
+.flex-nav li{
+    margin: 20px 0px;
+    flex: 3;
+}
+.flex-nav .social{
+    flex: 1;
+}
+@media screen and (max-width:1000px){
+    .flex-nav li{
+        flex:1 1 50%;
+    }
+    .flex-nav .social{
+        flex:1 1 25%;
+    }
+    ul{
+        flex-wrap: wrap;
+    }
+}
+@media screen and (max-width: 500px){
+    .flex-nav li{
+        flex-basis: 100%;
+    }
+}
