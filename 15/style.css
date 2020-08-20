@@ -1,0 +1,55 @@
+ul{
+    display: flex;
+    list-style-type: none;
+    text-align: center;
+}
+a:hover{
+    background: rgba(0,0,0,0.3);
+}
+a{
+    color: white;
+}
+p{
+    padding: 30px 0px;
+    background: indigo;
+    font-size: 20px;
+    color: white;
+    text-align: center;
+}
+.head{
+    background-color: indigo;
+    padding: 30px;
+    text-align: center;
+    color: white;
+}
+.container{
+    background-color: indigo;
+    margin: 0px auto;
+    border: 1px solid;
+    max-width: 1000px;
+    font-size: 20px;
+}
+.flex-nav li{
+    margin: 20px 0px;
+    flex: 3;
+}
+.flex-nav .social{
+    flex: 1;
+}
+@media screen and (max-width:1000px){
+    .flex-nav li{
+        flex:1 1 50%;
+    }
+    .flex-nav .social{
+        flex:1 1 25%;
+    }
+    ul{
+        flex-wrap: wrap;
+    }
+}
+@media screen and (max-width: 500px){
+    .flex-nav li{
+        flex-basis: 100%;
+    }
+
+}
