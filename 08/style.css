@@ -1,0 +1,36 @@
+.container1{
+    display: flex;
+    flex-wrap: wrap;
+    height: 100vh;
+    align-content: center;
+    margin: 20px 0px;
+}
+.container2{
+    display: flex;
+    flex-wrap: wrap;
+    height: 100vh;
+    align-content: space-between;
+    margin: 20px 0px;
+}
+.container3{
+    display: flex;
+    flex-wrap: wrap;
+    height: 100vh;
+    align-content: stretch;
+    margin: 20px 0px;
+}
+.box{
+    width: 33.333%;
+    font-size: 100px;
+    text-align: center;
+}
+.box1{background: violet;}
+.box2{background: indigo;}
+.box3{background: blue;}
+.box4{background: green;}
+.box5{background: yellow;}
+.box6{background: orange;}
+.box7{background: red;}
+.box8{background: brown;}
+.box9{background: silver;}
+.box10{background: gray;}
