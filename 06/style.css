@@ -1,0 +1,42 @@
+.container1{
+    display: flex;
+    border: 10px solid goldenrod;
+    justify-content: flex-start;
+}
+.container2{
+    display: flex;
+    border: 10px solid goldenrod;
+    justify-content: flex-end;
+}
+.container3{
+    display: flex;
+    border: 10px solid goldenrod;
+    justify-content: center;
+}
+.container4{
+    display: flex;
+    border: 10px solid goldenrod;
+    justify-content: space-around;
+}
+.container5{
+    display: flex;
+    border: 10px solid goldenrod;
+    justify-content: space-between;
+}
+.box{
+    color: white;
+    font-size: 100px;
+    text-align: center;
+    text-shadow: 4px 4px 0 rgba(0, 0, 0, 0.1);
+    padding: 10px;
+}
+.box1{background: violet;}
+.box2{background: indigo;}
+.box3{background: blue;}
+.box4{background: green;}
+.box5{background: yellow;}
+.box6{background: orange;}
+.box7{background: red;}
+.box8{background: brown;}
+.box9{background: silver;}
+.box10{background: grey;}
